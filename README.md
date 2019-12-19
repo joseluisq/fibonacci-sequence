@@ -8,6 +8,15 @@
 
 ## Usage
 
+**O(50)**
+
 ```sh
-make run
+# Haskell
+time -p make hs
+
+# C
+time -p make c
+
+# C++
+time -p make cpp
 ```
