@@ -1,14 +1,14 @@
-# Haskell Fibonacci Sequence Example
+# Fibonacci Sequence Example
 
-> This is just one of many examples of [The Fibonacci Sequence](https://wiki.haskell.org/The_Fibonacci_sequence).
+> Examples of [The Fibonacci Sequence](https://wiki.haskell.org/The_Fibonacci_sequence) in some programming languages for learning purposes.
 
-![image](https://user-images.githubusercontent.com/1700322/71040523-06d0a680-2127-11ea-9c8f-e3c6b187149f.png)
+## Complexity
 
-<small>Picture taken from http://php.bubble.ro/fibonacci/</small>
+```sh
+O(50) = 12586269025
+```
 
 ## Usage
-
-**O(50)**
 
 ```sh
 # Haskell
@@ -19,4 +19,11 @@ time -p make c
 
 # C++
 time -p make cpp
+
+# Rust
+time -p make rs
 ```
+
+## References
+
+- [labuladong/fucking-algorithm - Analysis of Dynamic Programming / Fibonacci sequence](https://labuladong.gitbook.io/algo-en/i.-dynamic-programming/analysisofdynamicprogramming#1-fibonacci-sequence)

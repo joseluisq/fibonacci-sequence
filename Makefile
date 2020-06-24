@@ -12,3 +12,8 @@ c:
 	@gcc main.c -o fib_c
 	@./fib_c
 .PHONY: c
+
+rs:
+	@cargo build --release
+	@./target/release/fibonacci-sequence-sample
+.PHONY: rs

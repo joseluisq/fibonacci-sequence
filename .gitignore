@@ -4,3 +4,6 @@ fib_*
 Main.hi
 Main.hi
 Main.o
+/target
+Cargo.lock
+**/.DS_Store

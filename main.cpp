@@ -1,3 +1,5 @@
+// The naive implementation
+//
 // #include <iostream>
 // using namespace std;
 
@@ -7,6 +9,10 @@
 //         return n;
 //     return fib(n - 1) + fib(n - 2);
 // }
+
+// ----
+
+// The optimized implementation
 
 #include <iostream>
 #include <cstdio>

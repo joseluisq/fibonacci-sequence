@@ -1,3 +1,5 @@
+// The naive implementation
+
 #include <stdio.h>
 
 int fib(int n)
@@ -13,3 +15,8 @@ int main()
 	printf("%d \n", fib(50));
 	return 0;
 }
+
+// ----
+
+// The optimized implementation
+// TODO:
