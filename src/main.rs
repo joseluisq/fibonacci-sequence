@@ -1,6 +1,6 @@
 // The optimized implementation
 
-fn fib(n: usize) -> usize {
+fn fib(n: u64) -> u64 {
     if n == 1 || n == 2 {
         return 1;
     }
@@ -18,7 +18,7 @@ fn fib(n: usize) -> usize {
 }
 
 fn main() {
-    let num: usize = 50;
+    let complx: u64 = 50;
 
-    println!("Fibonacci sequence of `{}` is `{}`", num, fib(num));
+    println!("{}", fib(complx));
 }

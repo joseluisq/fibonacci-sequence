@@ -1,4 +1,4 @@
-# Fibonacci Sequence Example
+# Fibonacci Sequence 🐌
 
 > Examples of [The Fibonacci Sequence](https://wiki.haskell.org/The_Fibonacci_sequence) in some programming languages for learning purposes.
 
@@ -10,18 +10,28 @@ O(50) = 12586269025
 
 ## Usage
 
+### C
+
 ```sh
-# Haskell
-time -p make hs
+make c
+```
 
-# C
-time -p make c
+### C++
 
-# C++
-time -p make cpp
+```sh
+make cpp
+```
 
-# Rust
-time -p make rs
+### Haskell
+
+```sh
+make hs
+```
+
+### Rust
+
+```sh
+make rs
 ```
 
 ## References

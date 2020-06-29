@@ -1,9 +1,7 @@
-Main
-main
+fib
 fib_*
-Main.hi
-Main.hi
-Main.o
+fib.hi
+fib.o
 /target
 Cargo.lock
 **/.DS_Store
