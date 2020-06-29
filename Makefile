@@ -23,3 +23,8 @@ rs:
 	@cargo build --release
 	@./target/release/fibonacci-sequence-sample
 .PHONY: rs
+
+go:
+	@go build fib.go
+	@./fib
+.PHONY: go

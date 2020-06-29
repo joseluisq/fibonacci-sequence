@@ -34,6 +34,12 @@ make hs
 make rs
 ```
 
+### Go
+
+```sh
+make go
+```
+
 ## References
 
 - [labuladong/fucking-algorithm - Analysis of Dynamic Programming / Fibonacci sequence](https://labuladong.gitbook.io/algo-en/i.-dynamic-programming/analysisofdynamicprogramming#1-fibonacci-sequence)
