@@ -8,7 +8,7 @@
 O(50) = 12586269025
 ```
 
-## Usage
+## Compiled languages
 
 ### C
 
@@ -38,6 +38,14 @@ make rs
 
 ```sh
 make go
+```
+
+## Scripting languages
+
+### Lua
+
+```sh
+make lua
 ```
 
 ## References

@@ -28,3 +28,7 @@ go:
 	@go build fib.go
 	@./fib
 .PHONY: go
+
+lua:
+	@lua fib.lua
+.PHONY: lua
