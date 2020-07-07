@@ -32,3 +32,10 @@ go:
 lua:
 	@lua fib.lua
 .PHONY: lua
+
+java:
+	@javac fib.java
+	@java \
+    	-Dfile.encoding=UTF-8 \
+    	-classpath . fib
+.PHONY: java

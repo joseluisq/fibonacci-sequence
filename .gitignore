@@ -2,6 +2,7 @@ fib
 fib_*
 fib.hi
 fib.o
+fib.class
 /target
 Cargo.lock
 **/.DS_Store

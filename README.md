@@ -40,6 +40,12 @@ make rs
 make go
 ```
 
+### Java
+
+```sh
+make java
+```
+
 ## Scripting languages
 
 ### Lua
