@@ -38,6 +38,11 @@ java:
 		-classpath . fib
 .PHONY: java
 
+v:
+	@v fib.v
+	@./fib
+.PHONY: v
+
 
 # Scripting languages
 
