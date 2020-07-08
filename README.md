@@ -27,6 +27,7 @@ O(50) = 12586269025
 |----------|-------------|
 | [Lua](https://www.lua.org/) |  `make lua` |
 | [Julia](https://julialang.org/) |  `make jl` |
+| [Python](https://www.python.org/) |  `make py` |
 
 ## References
 

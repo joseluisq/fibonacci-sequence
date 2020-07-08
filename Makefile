@@ -48,3 +48,7 @@ lua:
 jl:
 	@julia fib.jl
 .PHONY: jl
+
+py:
+	@python fib.py
+.PHONY: py
