@@ -1,7 +1,7 @@
-// The naive implementation
-
 #include <stdio.h>
 #include <stdint.h>
+
+// The naive implementation
 
 uint64_t fib(uint64_t n)
 {
@@ -10,8 +10,6 @@ uint64_t fib(uint64_t n)
     else
         return fib(n - 1) + fib(n - 2);
 }
-
-// ----
 
 // The optimized implementation
 
@@ -38,7 +36,6 @@ uint64_t fibo(uint64_t n)
 int main()
 {
     uint64_t complx = 50;
-
     printf("%llu \n", fibo(complx));
     return 0;
 }

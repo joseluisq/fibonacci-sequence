@@ -1,18 +1,17 @@
 #include <iostream>
 #include <cstdio>
+
 using namespace std;
 
 // The naive implementation
 
-// int fib(int n)
-// {
-// 	if (n == 1 || n == 2)
-// 		return 1;
-// 	else
-// 		return fib(n - 1) + fib(n - 2);
-// }
-
-// ----
+int fib(int n)
+{
+	if (n == 1 || n == 2)
+		return 1;
+	else
+		return fib(n - 1) + fib(n - 2);
+}
 
 // The optimized implementation
 
@@ -39,7 +38,6 @@ u_int64_t fibo(u_int64_t n)
 int main()
 {
     u_int64_t complx = 50;
-
     std::cout << fibo(complx) << std::endl;
     return 0;
 }
