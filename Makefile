@@ -52,3 +52,7 @@ jl:
 py:
 	@python fib.py
 .PHONY: py
+
+rb:
+	@ruby fib.rb
+.PHONY: rb
