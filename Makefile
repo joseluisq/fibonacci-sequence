@@ -1,23 +1,25 @@
 ifeq ($(shell uname),Darwin)
-    LDFLAGS := -Wl,-dead_strip
+	LDFLAGS := -Wl,-dead_strip
 else
-    LDFLAGS := -Wl,--gc-sections -lpthread -ldl
+	LDFLAGS := -Wl,--gc-sections -lpthread -ldl
 endif
 
-hs:
-	@ghc --make -dynamic fib.hs -o fib_hs
-	@./fib_hs
-.PHONY: hs
+# Compiled languages
+
+c:
+	@gcc $(LDFLAGS) fib.c -o fib_c
+	@./fib_c
+.PHONY: c
 
 cpp:
 	@g++ $(LDFLAGS) fib.cpp -o fib_cpp
 	@./fib_cpp
 .PHONY: cpp
 
-c:
-	@gcc $(LDFLAGS) fib.c -o fib_c
-	@./fib_c
-.PHONY: c
+hs:
+	@ghc --make -dynamic fib.hs -o fib_hs
+	@./fib_hs
+.PHONY: hs
 
 rs:
 	@cargo build --release
@@ -29,13 +31,20 @@ go:
 	@./fib
 .PHONY: go
 
+java:
+	@javac fib.java
+	@java \
+		-Dfile.encoding=UTF-8 \
+		-classpath . fib
+.PHONY: java
+
+
+# Scripting languages
+
 lua:
 	@lua fib.lua
 .PHONY: lua
 
-java:
-	@javac fib.java
-	@java \
-    	-Dfile.encoding=UTF-8 \
-    	-classpath . fib
-.PHONY: java
+jl:
+	@julia fib.jl
+.PHONY: jl
