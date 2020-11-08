@@ -20,6 +20,7 @@ O(50) = 12586269025
 | [Rust](https://www.rust-lang.org/) |  `make rs` |
 | [Go](https://golang.org/) |  `make go` |
 | [Java](https://www.oracle.com/java/) |  `make java` |
+| [Kotlin](https://kotlinlang.org/) |  `make kt` |
 | [V](https://vlang.io/) |  `make v` |
 
 ### Scripting languages

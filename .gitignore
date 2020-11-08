@@ -3,6 +3,7 @@ fib_*
 fib.hi
 fib.o
 fib.class
+*.jar
 /target
 Cargo.lock
 **/.DS_Store

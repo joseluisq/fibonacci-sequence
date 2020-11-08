@@ -38,6 +38,11 @@ java:
 		-classpath . fib
 .PHONY: java
 
+kt:
+	@kotlinc fib.kt -include-runtime -d fib.jar
+	@java -jar fib.jar
+.PHONY: kt
+
 v:
 	@v fib.v
 	@./fib
